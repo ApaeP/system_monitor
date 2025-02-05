@@ -30,18 +30,18 @@ A lightweight xbar plugin that provides real-time system resource monitoring dir
 1. Install xbar from [xbarapp.com](https://xbarapp.com/)
 2. Clone this repository:
    ```bash
-   git clone https://github.com/YourUsername/xbar-system-monitor.git
+   git clone https://github.com/ApaeP/system_monitor.git
    ```
 3. Run the installation script:
    ```bash
    ./copy_to_plugins.sh
    ```
    Or manually copy the files:
-   - Copy `system-monitor.1s.rb` to your xbar plugins folder
+   - Copy `system_monitor.1s.rb` to your xbar plugins folder
    - Copy the `system_monitor` directory to your xbar plugins folder
 4. Make the plugin executable:
    ```bash
-   chmod +x "~/Library/Application Support/xbar/plugins/system-monitor.1s.rb"
+   chmod +x "~/Library/Application Support/xbar/plugins/system_monitor.1s.rb"
    ```
 5. Refresh xbar
 
@@ -50,9 +50,9 @@ A lightweight xbar plugin that provides real-time system resource monitoring dir
 ### Refresh Rate
 
 The plugin updates every second by default. Modify the refresh rate by renaming the main file:
-- `system-monitor.1s.rb` - updates every second
-- `system-monitor.5s.rb` - updates every 5 seconds
-- `system-monitor.1m.rb` - updates every minute
+- `system_monitor.1s.rb` - updates every second
+- `system_monitor.5s.rb` - updates every 5 seconds
+- `system_monitor.1m.rb` - updates every minute
 
 ### Network Monitoring Setup
 
