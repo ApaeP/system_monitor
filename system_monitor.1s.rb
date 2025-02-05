@@ -20,4 +20,4 @@ exit if lid_is_closed?
 
 REFRESH_RATE = __FILE__[/(?<=\.)\d+(?=s)/].to_i
 
-Plugin.run(REFRESH_RATE)
+SystemMonitor::Plugin.run(REFRESH_RATE)
